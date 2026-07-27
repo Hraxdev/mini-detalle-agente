@@ -1,0 +1,23 @@
+# --- Framework Principal & Web ---
+streamlit==1.60.0
+python-dotenv==1.2.2
+
+# --- Ecosistema LangChain & LangGraph ---
+langchain==1.3.14
+langchain-community==0.4.2
+langchain-core==1.5.1
+langchain-huggingface
+langgraph==1.2.9
+langsmith==0.10.10
+
+# --- Embeddings Locales & Vectorstore ---
+sentence-transformers
+faiss-cpu==1.14.3
+
+# --- Integración con Oracle Cloud Infrastructure (OCI) ---
+oci
+langchain-openai==1.4.1
+
+# --- Utilidades de Datos ---
+pandas==3.0.5
+numpy==2.5.1

@@ -1,0 +1,28 @@
+CATÁLOGO Y EXISTENCIAS DE PRODUCTOS - MINI DETALLE
+
+1. Producto: Escritorio Minimalista Executive
+   - Descripción: Escritorio compacto elaborado en piel sintética premium con estructura metálica reforzada. Ideal para espacios reducidos.
+   - Colores disponibles: Negro, Café, Azul Marino.
+   - Existencias en almacén: 45 unidades.
+   - Lista 1 (Público General): $1,200 MXN
+   - Lista 2 (Cliente Frecuente): $1,050 MXN
+   - Lista 3 (Mayorista): $900 MXN
+   - Lista 4 (Distribuidor VIP): $800 MXN
+
+2. Producto: Silla Ergonómica Pro
+   - Descripción: Silla de oficina con soporte lumbar ajustable y malla transpirable de alta densidad.
+   - Colores disponibles: Negro, Gris.
+   - Existencias en almacén: 30 unidades.
+   - Lista 1 (Público General): $2,500 MXN
+   - Lista 2 (Cliente Frecuente): $2,200 MXN
+   - Lista 3 (Mayorista): $1,950 MXN
+   - Lista 4 (Distribuidor VIP): $1,700 MXN
+
+3. Producto: Lámpara LED Smart Desk
+   - Descripción: Lámpara de escritorio con regulador de intensidad táctil, puerto de carga USB y luz cálida/fría.
+   - Colores disponibles: Blanco, Negro.
+   - Existencias en almacén: 60 unidades.
+   - Lista 1 (Público General): $600 MXN
+   - Lista 2 (Cliente Frecuente): $520 MXN
+   - Lista 3 (Mayorista): $450 MXN
+   - Lista 4 (Distribuidor VIP): $380 MXN
