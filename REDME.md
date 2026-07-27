@@ -1,7 +1,11 @@
 <h1 align="center">
 🤖 Asistente Virtual E-commerce
 </h1>
+<p align="center">
 
+Proyecto desarrollado para el <b>Challenge Técnico del Programa Oracle Next Education (ONE) / Alura Latam</b>
+
+</p>
 <h3 align="center">
 
 
@@ -9,11 +13,7 @@
    
 </h3>
 
-<p align="center">
 
-Proyecto desarrollado para el <b>Challenge Técnico del Programa Oracle Next Education (ONE) / Alura Latam</b>
-
-</p>
 <p align="center">
 
 <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white">
