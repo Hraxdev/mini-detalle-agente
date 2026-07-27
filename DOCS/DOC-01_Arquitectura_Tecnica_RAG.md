@@ -62,3 +62,139 @@ El sistema utiliza el Código Postal del usuario como dato de referencia para pr
 # 2. Arquitectura General del Sistema
 
 La solución está compuesta por los siguientes elementos:
+Usuario
+|
+|
+Streamlit Interface
+|
+|
+Agente Conversacional
+|
+|
+LangChain + Lógica RAG
+|
+|
+FAISS Vector Store
+|
+|
+Base de Conocimiento
+(Productos, FAQ, Políticas)
+|
+|
+OpenAI API
+
+---
+
+# 3. Pipeline RAG
+
+## 3.1 Ingesta de Información
+
+El sistema procesa documentos utilizados como fuente de conocimiento:
+
+- Archivos PDF.
+- Archivos CSV.
+- Documentos JSON.
+- Archivos Markdown.
+
+La información corresponde a:
+
+- Catálogo de productos.
+- Fichas técnicas.
+- Preguntas frecuentes.
+- Políticas comerciales.
+
+---
+
+## 3.2 Procesamiento y Fragmentación
+
+Los documentos son divididos en fragmentos de información (*chunks*) con el objetivo de conservar contexto semántico y permitir una recuperación eficiente.
+
+Este proceso permite que el modelo consulte únicamente información relevante para cada pregunta.
+
+---
+
+## 3.3 Generación de Embeddings
+
+Cada fragmento de información es transformado en representaciones vectoriales mediante embeddings.
+
+Estos vectores permiten realizar búsquedas basadas en similitud semántica.
+
+---
+
+## 3.4 Almacenamiento Vectorial
+
+Actualmente el proyecto utiliza **FAISS** como motor de búsqueda vectorial.
+
+Sus funciones principales son:
+
+- Almacenar embeddings.
+- Recuperar información relacionada.
+- Proporcionar contexto al modelo generativo.
+
+---
+
+## 3.5 Recuperación de Contexto
+
+Cuando un usuario realiza una consulta:
+
+1. El sistema analiza la intención.
+2. Busca información relacionada en FAISS.
+3. Recupera los fragmentos relevantes.
+4. Envía el contexto al modelo de lenguaje.
+
+---
+
+## 3.6 Generación de Respuesta
+
+El modelo genera una respuesta utilizando:
+
+- La consulta del usuario.
+- El contexto recuperado.
+- Las reglas de negocio establecidas.
+
+---
+
+# 4. Control Conversacional y Guardrails
+
+El asistente implementa reglas para mantener respuestas confiables:
+
+## Restricciones
+
+- No inventar información.
+- No proporcionar precios sin autorización.
+- No responder información inexistente.
+- Solicitar datos adicionales cuando sean necesarios.
+
+## Manejo de contingencias
+
+Cuando la información requerida no está disponible, el sistema:
+
+- Solicita mayor contexto.
+- Sugiere contacto comercial.
+- Indica las limitaciones de información disponible.
+
+---
+
+# 5. Tecnologías Utilizadas
+
+| Tecnología | Uso |
+|---|---|
+| Python 3.10+ | Desarrollo del backend |
+| Streamlit | Interfaz conversacional |
+| LangChain | Orquestación del flujo RAG |
+| FAISS | Base vectorial |
+| OpenAI API | Modelo generativo y embeddings |
+| VS Code | Entorno de desarrollo |
+
+---
+
+# 6. Evolución Futura
+
+La arquitectura está preparada para evolucionar hacia infraestructura cloud mediante:
+
+- Oracle Cloud Infrastructure (OCI).
+- Servicios administrados.
+- Mayor disponibilidad.
+- Escalabilidad del servicio.
+
+El despliegue cloud será documentado en una etapa posterior.
