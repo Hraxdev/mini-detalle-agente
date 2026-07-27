@@ -116,11 +116,11 @@ La siguiente etapa del proyecto contempla su despliegue en Oracle Cloud Infrastr
 # 📚 Documentación Técnica
 
 Consulta los documentos técnicos del proyecto:
- - 📐 [DOC-01_Arquitectura Técnica y Estrategia RAG](./Docs/DOC-01_Arquitectura_Tecnica_RAG.md)
+ - 📐 [DOC-01_Arquitectura Técnica y Estrategia RAG](./DOCS/DOC-01_Arquitectura_Tecnica_RAG.md)
 
- - 📘 [DOC-02_Base de Conocimiento Operativa](./Docs/DOC-02_Base_Conocimiento_Operativa.md)
+ - 📘 [DOC-02_Base de Conocimiento Operativa](./DOCS/DOC-02_Base_Conocimiento_Operativa.md)
    
- - 🛒 [DOC-03_Catálogo de Productos RAG](./Docs/DOC-03_Catalogo_Productos_RAG.md)
+ - 🛒 [DOC-03_Catálogo de Productos RAG](./DOCS/DOC-03_Catalogo_Productos_RAG.md)
 
- - ☁️ [DOC-04_Guía de Despliegue OCI](./Docs/DOC-04_Guia_Despliegue_OCI.md)
+ - ☁️ [DOC-04_Guía de Despliegue OCI](./DOCS/DOC-04_Guia_Despliegue_OCI.md)
    
