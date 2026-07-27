@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-Proyecto desarrollado para el **Challenge Técnico del Programa Oracle Next Education (ONE) / Alura Latam**.
+
 
 ![Asistente Virtual Mini Detalle](DOCS/ActualMinidetalle.png)
    
