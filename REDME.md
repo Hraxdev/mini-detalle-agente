@@ -1,7 +1,39 @@
-# 🤖 Asistente Virtual E-commerce — Mini Detalle
+<h1 align="center">
+🤖 Asistente Virtual E-commerce
+</h1>
 
-Proyecto desarrollado para el **Challenge Técnico del Programa Oracle Next Education (ONE) / Alura Latam**.
+<h3 align="center">
+Mini Detalle
+</h3>
 
+<p align="center">
+
+Proyecto desarrollado para el <b>Challenge Técnico del Programa Oracle Next Education (ONE) / Alura Latam</b>
+
+</p>
+<p align="center">
+
+<img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white">
+
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
+
+<img src="https://img.shields.io/badge/LangChain-00A67E?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/FAISS-00599C?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/OpenAI-GPT--3.5-412991?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/Oracle-OCI-F80000?style=for-the-badge&logo=oracle&logoColor=white">
+
+</p>
+---
+## 📷 Vista de la aplicación
+
+<p align="center">
+  <img src="docs/interfaz.png" width="900">
+</p>
+
+---
 ## 📋 Descripción del Proyecto
 El Asistente Virtual para **Mini Detalle** es un agente RAG (*Retrieval-Augmented Generation*) diseñado para automatizar la atención a clientes y prospectos dentro del e-commerce:
 1. **Identificación de usuarios:** Clasifica al usuario por su correo electrónico (Cliente Registrado vs. Prospecto).
@@ -11,12 +43,15 @@ El Asistente Virtual para **Mini Detalle** es un agente RAG (*Retrieval-Augmente
 ---
 
 ## 🛠️ Tecnologías Utilizadas
-- **Lenguaje:** Python 3.10+
-- **Framework UI:** Streamlit
-- **Framework IA/RAG:** LangChain
-- **Base de Datos Vectorial:** FAISS
-- **Modelo LLM:** OpenAI GPT-3.5 Turbo / Embeddings
-- **Infraestructura:** Oracle Cloud Infrastructure (OCI Compute VM)
+| Tecnología | Función |
+|------------|---------|
+| Python 3.10+ | Lenguaje de programación |
+| Streamlit | Interfaz web |
+| LangChain | Framework RAG |
+| FAISS | Base de datos vectorial |
+| OpenAI GPT-3.5 Turbo | Modelo de IA |
+| OpenAI Embeddings | Generación de embeddings |
+| Oracle Cloud Infrastructure (OCI) | Despliegue en la nube |
 
 ---
 
@@ -57,7 +92,21 @@ Accede desde tu navegador a `http://localhost:8501`.
 ---
 
 ## ☁️ Despliegue en Oracle Cloud Infrastructure (OCI)
+---
 
-1. Instancia **Ubuntu 22.04 LTS** en OCI Compute VM.
-2. Regla de entrada (*Ingress Rule*) en OCI VCN habilitada en el **Puerto TCP 8501**.
-3. Ejecución del proceso en segundo plano con `nohup` o `tmux`.
+## ✨ Funcionalidades
+
+- ✅ Identificación automática de clientes registrados.
+- ✅ Detección de prospectos.
+- ✅ Consulta inteligente mediante IA (RAG).
+- ✅ Búsqueda semántica con FAISS.
+- ✅ Consulta de inventario.
+- ✅ Consulta de fichas técnicas.
+- ✅ Consulta de tiempos de entrega.
+- ✅ Respuestas generadas con OpenAI.
+- 
+## ☁️ Despliegue
+
+Actualmente el proyecto se ejecuta en un entorno local sobre Windows para su desarrollo y pruebas.
+
+La siguiente etapa del proyecto contempla su despliegue en Oracle Cloud Infrastructure (OCI).
