@@ -125,8 +125,8 @@ Consulta los documentos técnicos del proyecto:
    
  - 🛒 [DOC-03_Catálogo de Productos RAG](./DOCS/DOC-03_Catalogo_Productos_RAG.md)
 
- -   [DOC-04_Guía de Despliegue OCI](./DOCS/DOC-04_Guia_Despliegue_OCI.md)
- -   
+ - 📐 [DOC-04_Guía de Despliegue OCI](./DOCS/DOC-04_Guia_Despliegue_OCI.md)
+    
     
    
 
