@@ -3,7 +3,8 @@
 </h1>
 
 <h3 align="center">
-Mini Detalle
+ -  ![Asistente Virtual Mini Detalle](DOCS/ActualMinidetalle.png)
+   
 </h3>
 
 <p align="center">
@@ -124,5 +125,4 @@ Consulta los documentos técnicos del proyecto:
 
  -   [DOC-04_Guía de Despliegue OCI](./DOCS/DOC-04_Guia_Despliegue_OCI.md)
    
- -  ![Asistente Virtual Mini Detalle](DOCS/ActualMinidetalle.png)
-   
+
