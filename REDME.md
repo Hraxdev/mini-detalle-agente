@@ -3,7 +3,7 @@
 </h1>
 <p align="center">
 
-Proyecto desarrollado para el <b>Challenge Técnico del Programa Oracle Next Education (ONE) / Alura Latam</b>
+    Proyecto desarrollado para el <b>Challenge Técnico del Programa Oracle Next Education (ONE) / Alura Latam</b>
 
 </p>
 <h3 align="center">
