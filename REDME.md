@@ -110,3 +110,17 @@ Accede desde tu navegador a `http://localhost:8501`.
 Actualmente el proyecto se ejecuta en un entorno local sobre Windows para su desarrollo y pruebas.
 
 La siguiente etapa del proyecto contempla su despliegue en Oracle Cloud Infrastructure (OCI).
+
+---
+
+# 📚 Documentación Técnica
+
+Consulta los documentos técnicos del proyecto:
+ - 📐 [DOC-01 - Arquitectura Técnica y Estrategia RAG](docs/DOC-01_Arquitectura_Tecnica_RAG.md)
+
+ - 📘 [DOC-02 - Base de Conocimiento Operativa](docs/DOC-02_Base_Conocimiento_Operativa.md)
+   
+ - 🛒 [DOC-03 - Catálogo de Productos RAG](docs/DOC-03_Catalogo_Productos_RAG.md)
+
+ - ☁️ [DOC-04 - Guía de Despliegue OCI](docs/DOC-04_Guia_Despliegue_OCI.md)
+   
